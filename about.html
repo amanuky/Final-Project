@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Adventures Begin Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div data-include-html="header.html"></div>
+    <div class="about-img">
+        <section id="about">
+            <h2>ՄԵՐ ՄԱՍԻՆ</h2>
+
+            <p>Միայնակ մարտի չեն գնում, դա գիտեն բոլորը: Սկզբնական շրջանում մեր ընկերությունը կազմված էր ընդհամենը երեք
+                հոգուց: Թվում է` դա շատ վաղուց էր:
+
+                Այժմ մենք քսանն ենք: Մենք պարբերաբար սովորում, զարգանում և ընդլայնվում ենք, հասնում ենք նպատակների,
+                կատարելագործվում և առաջ ենք շարժվում: Առջևում սպասվում են հետաքրքիր և միևնույն ժամանակ անհայտ
+                զարգացումներ:
+                Մեր ճանապարհը ոչ միշտ է ուղիղ և հարթ, բայց դա ևս մի միջոց է վաստակելու թանկ փորձ, իսկ դրա հետ` նաև
+                արհեստավարժություն:
+
+                Մեր կոչումն է լինել լավագույնը, իսկ դա նշանակում է մատուցել լավ, որակյալ և արհեստավարժ ծառայություններ:
+                Այդ
+                հարցում մեզ միշտ օգնում են մեր գործընկերները: Մեր ընկերները միշտ ուշադիր են, փոքր ինչ` խիստ, բծախնդիր,
+                իսկ
+                ընդհանուր առմամբ նրանք շատ հետաքրքիր մարդիկ են: Այստեղ կարող եք գտնել հետաքրքիր տեղեկություններ
+                արշավական և
+                ալպինիստական թեմաներով, ծանոթանալ ոլորտի նորություններին և մեր կողմից կազմակերպվող առաջիկա
+                միջոցառումներին:
+                Մենք Ձեզ առաջարկում ենք լիցքաթափվել, կտրվել Ձեր առօրյայից, ձեռք բերել նոր ծանոթություններ և ունենալ
+                լի՜քը
+                տարբերվող օրեր: Մասնակիցը դարձե՛ք մեր միջոցառումների և ստացե՛ք էմոցիաների Ձեր չափաբաժինը: Դե իսկ մեր
+                աշխատանքի ապացույցը մեր ցուցանիշներն են:</p><br>
+
+            <div class="row justify-content-center py-5">
+                <div class="col-md-4">
+                    <h4 class="article">Մատուցվող ծառայությունների քանակ՝ ըստ տարիների (2021-2024թթ.)</h4>
+                    <div class="chart-container">
+                        <canvas id="doughnutChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="article">Հաճախորդների թիվ՝ ըստ տարիների (2021-2024թթ.)</h4>
+                    <div class="chart-container">
+                        <canvas id="myChart" width="800" height="320"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="article">Մատուցվող ծառայությունների տեսակարար կշիռներ՝ տարեկան կտրվածքով (2024թ.)
+                    </h4>
+                    <div class="chart-container">
+                        <canvas id="pieChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <h2>ՄԵՐ ԹԻՄԸ</h2>
+            <p>Մեր թիմը կազմված է երիտասարդ մասնագետներից, լեռնագնացներից, փրկարարներից, ովքեր պատրաստ են
+                հաղթահարել տարբեր բարդության փորձություններ: Յուրաքանչյուր աշխատակցի հաջողություն ընկերության
+                հաջողության գլխավոր մասն է կազմում:
+
+                YOUR ADVENTURES-ի թիմը միշտ պատրաստ է օգնել լեռների և ակտիվ հանգստի սիրահարներին, այդ թվում և
+                սկսնակներին: Ի սկզբանե հանդիսանալով ալպինիզմի և լեռնային տուրիզմի հայկական ֆեդերացիայի
+                գործընկեր, համատեղ ուժերով փորձում ենք բազմակողմանիորեն զարգացնել լեռնագնացության և ալպինիզմի մշակույթը
+                Հայաստանում:</p>
+    </div>
+    </section>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <img src="./img/ourteam10.jpg" alt="Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title">Մովսես Խորենացի</h5>
+                        <p class="card-text">Համահիմնադիր և գործադիր տնօրեն</p>
+                        <p>Եղե՛ք քաջ, եթե ցանկանում եք ինչ-որ բան փոխել: Ապրե՛ք հիմա, վաղը կարող է ուշ լինել:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <img src="./img/ourteam6.jpg" alt="Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title">Ագաթանգեղոս</h5>
+                        <p class="card-text">Համահիմնադիր, լեռնագնաց, PR և միջազգային զարգացման գծով փոխտնօրեն </p>
+                        <p>Կհանդիպե՛նք լեռներում:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <img src="./img/ourteam8.jpg" alt="Not Found">
+                    <div class="card-body">
+                        <h5 class="card-title">Փավստոս Բուզանդ</h5>
+                        <p class="card-text">Համահիմնադիր, հրահանգիչ և և բարձրության վրա ալպինիստական աշխատանքների
+                            մենեջեր</p>
+                        <p>Մագլցումը միայն սպորտի մասին չէ: Այն նաև միտք է և կենսակերպ:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Կայքում ներկայացված ամբողջ տեղեկատվությունը մտացածին է, յուրաքանչյուր համընկնում պատահականության արդյունք է:</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+        <p class="copyright">Էջը թարմացվել է 18.09.2024 10:24 <br />© 2023 YOUR ADVENTURES։ Բոլոր իրավունքները
+            պաշտպանված են։</p>
+    </footer>
+    <script src="chart.js"></script>
+    <script src="include.js"></script>
+</body>
+
+</html>
